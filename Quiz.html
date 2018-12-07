@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Quiz tidadou</title>
+    <link rel="stylesheet" href="Quiz.css">
+    <script src="lib/jquery.js"></script>
+
+
+</head>
+<body>
+
+<!--
+height="49"
+width="655"
+-->
+
+<div id="contenaire">
+
+    <img id="logo" src="image.png"/>
+
+    <div id="Quiz">
+
+        <div id="Question"></div>
+
+        <button id="Reponse_0" class="btn_reponse flash"></button>
+        <button id="Reponse_1" class="btn_reponse flash"></button>
+        <button id="Reponse_2" class="btn_reponse flash"></button>
+
+    </div>
+
+    <!--
+    <button id="suivant" class="btn"> > </button>
+    -->
+
+
+    <!--
+        <div id="bouton_text">
+            <button id="precedent" class="btn"> < </button>
+
+            <button id="suivant" class="btn"> > </button>
+        </div>
+    -->
+
+</div>
+
+<!-- Nouvelle Fenetre pour le Score -->
+<div id="scores">
+
+    <div id="Affscores"></div>
+
+    <input type="button" onclick="refresh()" value="Rafraichir"/>
+</div>
+
+<script src="Quiz.js"></script>
+</body>
+</html>
